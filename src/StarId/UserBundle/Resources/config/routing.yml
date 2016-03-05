@@ -1,0 +1,4 @@
+star_id_user_user:
+    resource: "@StarIdUserBundle/Resources/config/routing/user.yml"
+    prefix:   /user
+

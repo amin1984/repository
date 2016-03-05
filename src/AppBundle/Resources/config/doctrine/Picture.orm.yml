@@ -1,0 +1,21 @@
+AppBundle\Entity\Picture:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Repository\PictureRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        size:
+            type: string
+            length: 255
+        color:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

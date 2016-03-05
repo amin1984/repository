@@ -1,0 +1,12 @@
+user_index:
+    path:     /
+    defaults: { _controller: "StarIdUserBundle:User:index" }
+    methods:  GET
+
+user_show:
+    path:     /{id}/show
+    defaults: { _controller: "StarIdUserBundle:User:show" }
+    methods:  GET
+
+
+
